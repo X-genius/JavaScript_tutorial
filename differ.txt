@@ -1,0 +1,30 @@
+Difference between var , let and const
+
+----> var
+1. var is global, functional and local scope.
+2. var can be redeclared and updated
+   Example : 
+   var a = 10;
+   var b = 20; //redclared Example
+
+   var a = 20;
+   a = 30; //updated.
+3. Hoisting of the var is possible.
+4. Problem of var is redeclared because you did not declared one variable multiple time in industrial code.
+
+
+----> let
+1. let is blocked scope.
+2. let can be updated but not redeclared
+   Example : 
+   let a = 20;
+   a = 30; //updated.
+3. Hoisting can be done but in the case of let it is not initalize
+
+
+----> const
+1. const is blocked scope.
+2. const cannot be updated and redeclared.
+   Example :
+   const a = 20;
+3. Hoisting can be done but in the case of const it is not initalize
